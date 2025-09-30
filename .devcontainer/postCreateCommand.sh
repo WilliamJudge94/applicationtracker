@@ -13,11 +13,11 @@ fi
 mise trust
 
 # Install tools from the mise configuration
-mise install
+# mise install
 
 # Configure mise to enable idiomatic version files for Python
 # This removes the deprecation warning and ensures .python-version files work
-mise settings add idiomatic_version_file_enable_tools python
+# mise settings add idiomatic_version_file_enable_tools python
 
 echo 'eval "$(/usr/local/bin/mise activate bash)"' >> ~/.bashrc
 source ~/.bashrc
